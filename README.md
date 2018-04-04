@@ -28,7 +28,7 @@ app.listen(3000, () => console.log('Example app listening on port 3000!'))
 ```
 
 <pre>
-	node nodeapp.js
+node nodeapp.js
 </pre>
 
 express-generator
@@ -40,4 +40,32 @@ npm install express-generator -g
 express -h
 ```
 
+```
+express --view=pug myapp
+cd myapp
+npm install
+DEBUG=myapp:* npm start
+```
 
+http://localhost:3000
+```
+.
+├── app.js
+├── bin
+│   └── www
+├── package.json
+├── public
+│   ├── images
+│   ├── javascripts
+│   └── stylesheets
+│       └── style.css
+├── routes
+│   ├── index.js
+│   └── users.js
+└── views
+    ├── error.pug
+    ├── index.pug
+    └── layout.pug
+
+7 directories, 9 files
+```
