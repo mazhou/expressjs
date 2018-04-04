@@ -17,7 +17,7 @@ npm init
 npm install express --save
 ```
 
-create a app.js
+create a nodeapp.js
 ```
 const express = require('express')
 const app = express()
@@ -26,4 +26,18 @@ app.get('/', (req, res) => res.send('Hello World!'))
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
 ```
+
+<pre>
+	node nodeapp.js
+</pre>
+
+express-generator
+```Bash
+npm install express-generator -g
+```
+
+```
+express -h
+```
+
 
