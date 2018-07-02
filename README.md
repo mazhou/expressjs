@@ -69,3 +69,8 @@ http://localhost:3000
 
 7 directories, 9 files
 ```
+
+```
+npm install web3
+```
+
